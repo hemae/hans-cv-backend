@@ -1,0 +1,34 @@
+{
+  "port": 5000,
+  "baseUrl": "http://localhost",
+  "apiV": "/api",
+
+  "jwtSecret": "kwvpkruq-2bq321o5r8n",
+  "jwtPassword": "kyxs02wd-betkcsh3wm",
+  "passwordSecret": "[&.paws%&I^%i7tsdv",
+
+  "appName": "Andrey Arkhipov CV",
+
+  "routes": "src/routes",
+
+  "images": "../database/images",
+
+  "skillsImages": "../database/images/skills",
+  "sectionsImages": "../database/images/sections",
+  "experiencesImages": "../database/images/experiences",
+  "educationsImages": "../database/images/educations",
+  "languagesImages": "../database/images/languages",
+  "linksImages": "../database/images/links",
+  "projectsImages": "../database/images/projects",
+
+  "sections": "../database/data/sections",
+  "educations": "../database/data/educations",
+  "experiences": "../database/data/experiences",
+  "languages": "../database/data/languages",
+  "links": "../database/data/links",
+  "projects": "../database/data/projects",
+  "skills": "../database/data/skills",
+
+  "admins": "../database/data/admins",
+  "admin-code": "../database/data/admin-code"
+}

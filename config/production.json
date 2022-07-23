@@ -1,0 +1,36 @@
+{
+  "port": 5000,
+  "baseUrl": "http://localhost",
+  "apiV": "/api",
+
+  "jwtSecret": "kwvpkruq-2bq321o5r8n",
+  "jwtPassword": "kyxs02wd-betkcsh3wm",
+  "passwordSecret": "[&.paws%&I^%i7tsdv",
+
+  "appName": "Gen-Art",
+  "emailName": "Gen-Art",
+  "emailAddress": "gen.art.info@mail.ru",
+  "emailPassword": "admin874530nh$2",
+  "emailSMTP": "smtp.mail.ru",
+  "emailPort": 465,
+
+  "routes": "src/routes",
+
+  "layouts": "src/database/resources/layouts",
+  "string-resources": "src/database/resources/string-resources",
+
+  "contacts-sections": "src/database/data/contacts-sections",
+  "order-registration-sections": "src/database/data/order-registration-sections",
+  "purchase-questions-sections": "src/database/data/purchase-questions-sections",
+  "how-choose-a-photo-sections": "src/database/data/how-choose-a-photo-sections",
+  "images": "src/database/images",
+  "sections": "src/database/data/sections",
+  "admins": "src/database/data/admins",
+  "admin-code": "src/database/data/admin-code",
+  "promo-pictures": "src/database/data/promo-pictures",
+  "faq": "src/database/data/faq",
+  "order-requests": "src/database/data/order-requests",
+  "testimonials": "src/database/data/testimonials",
+
+  "promocodes": "src/database/data/promocodes"
+}
