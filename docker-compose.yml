@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  nodejs:
+    build: ./
+    ports:
+      - 5000:5000
+    volumes:
+      - ../hans-cv-database:/usr/hans-cv-database
+
+networks:
+  default:
+    external:
+      name: hans-cv

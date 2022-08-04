@@ -1,13 +1,15 @@
 FROM node:16.15.0
 
-WORKDIR /hans-cv-backend
+WORKDIR /usr/hans-cv-backend
 
-COPY package.json /hans-cv-backend
+COPY ./package*.json ./
 
 RUN yarn install
 
-COPY . .
+COPY ./ ./
 
 EXPOSE 5000
+
+USER node
 
 CMD ["yarn", "start"]
