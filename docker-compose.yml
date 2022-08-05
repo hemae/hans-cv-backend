@@ -11,4 +11,4 @@ services:
 networks:
   default:
     external:
-      name: hans-cv
+      name: serverData_hans-cv
